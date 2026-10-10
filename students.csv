@@ -1,11 +1,21 @@
-Student_ID,Name,Python,Maths,Science
-1,Aman,85,78,90
-2,Priya,92,88,95
-3,Rahul,56,65,60
-4,Neha,75,82,80
-5,Ravi,40,55,48
-6,Anjali,89,91,87
-7,Karan,67,70,72
-8,Simran,95,93,98
-9,Arjun,50,45,58
-10,Pooja,80,85,83
+Student_ID,Name,Department,Maths,Science,English,Computer,Attendance
+STU001,Aarav Sharma,Computer Science,92,88,85,96,94
+STU002,Ananya Verma,Computer Science,78,82,90,84,88
+STU003,Rohan Mehta,Commerce,65,70,72,68,79
+STU004,Sara Khan,Arts,88,91,86,89,96
+STU005,Vivaan Patel,Commerce,45,52,48,60,72
+STU006,Isha Gupta,Computer Science,96,94,92,98,99
+STU007,Arjun Singh,Arts,55,62,58,65,81
+STU008,Diya Nair,Computer Science,83,79,88,91,90
+STU009,Kabir Das,Commerce,38,55,42,49,68
+STU010,Meera Iyer,Arts,74,77,80,72,85
+STU011,Aditya Rao,Computer Science,67,63,71,76,77
+STU012,Kiara Joshi,Commerce,91,86,89,93,95
+STU013,Reyansh Bose,Arts,49,44,53,47,73
+STU014,Myra Kapoor,Computer Science,85,90,82,87,92
+STU015,Dev Malhotra,Commerce,59,61,57,64,80
+STU016,Anika Roy,Arts,77,84,79,81,89
+STU017,Neil Thomas,Computer Science,35,39,42,50,65
+STU018,Tara Sen,Commerce,69,73,66,71,83
+STU019,Om Kulkarni,Arts,81,76,84,78,87
+STU020,Simran Kaur,Computer Science,93,89,95,91,97

@@ -1,49 +1,33 @@
 # Student Performance Analytics System
 
-## 1. Project Overview
-The Student Performance Analytics System is a Python-based project that analyses student marks using NumPy and Pandas. It calculates total marks, average marks, grades, and identifies the top-performing student.
+A beginner Python project that uses Pandas and NumPy to summarize marks and attendance for 20 students.
 
-## 2. Objectives
-- Analyse student performance.
-- Calculate total and average marks.
-- Assign grades automatically.
-- Identify the highest and lowest averages.
-- Save the analysed results in a CSV file.
+## What it does
 
-## 3. Technologies Used
-- Python
-- NumPy
-- Pandas
-- CSV
+- Reads student information from `students.csv` into a Pandas DataFrame.
+- Calculates each student's total and average marks.
+- Assigns grades and pass/fail results.
+- Shows class and subject averages, highest and lowest averages, attendance, and the top 3 students.
 
-## 4. Project Files
-- `main.py` – Main Python program.
-- `students.csv` – Input dataset containing student marks.
-- `student_analysis.csv` – Generated analysis results.
-- `README.md` – Project documentation.
+## Rules used
 
-## 5. Concepts Covered
-- Variables and data types
-- Functions and conditional statements
-- Pandas DataFrames
-- NumPy calculations
-- Data analysis
-- CSV file handling
+- Each subject is marked out of 100.
+- Grade: A = 90+, B = 75–89, C = 60–74, D = 40–59, F = below 40.
+- A student passes only if they score at least 40 in every subject.
+- Attendance is recorded as a percentage.
 
-## 6. How to Run the Project
-1. Install Python.
-2. Install the required libraries:
-   `python -m pip install numpy pandas`
-3. Open the project folder in VS Code.
-4. Run the command:
-   `python main.py`
+## Run the project
 
-## 7. Sample Results
-- Total Students: 10
-- Class Average: 75.07
-- Highest Average: 95.33
-- Lowest Average: 47.67
-- Top Performer: Simran
+1. Install Python 3.
+2. Open a terminal in this folder.
+3. Install the libraries: `python -m pip install -r requirements.txt`
+4. Run: `python main.py`
 
-## 8. Conclusion
-This project demonstrates how Python, NumPy, and Pandas can be used to analyse student marks efficiently. It automates calculations and provides a clear summary of student performance.
+## Files
+
+- `main.py` — program and reusable functions.
+- `students.csv` — sample records for 20 students.
+- `Project_Documentation.md` — full project report.
+- `requirements.txt` — required Python libraries.
+
+This project uses beginner concepts: variables, data types, functions, loops, Pandas, NumPy, and basic data analysis. It does not use machine learning.
